@@ -74,11 +74,17 @@ input {
   color: rgb(255, 255, 255);
   font-size: 1.15em;
   border: none;
-  border-radius: 0px 0px 5px 0x;
+  border-radius: 0 5px 5px 0;
 }
 
 input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
+  outline: none;
   border-left: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 0 4px rgb(255, 255, 255);
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
 }
 
 #submit_button {
