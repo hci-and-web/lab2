@@ -88,6 +88,7 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
   margin-top: 1.25em;
   background-color: #e25f18;
   font-weight: bold;
+  -webkit-appearance: none;
 }
 
 #submit_button:hover {
