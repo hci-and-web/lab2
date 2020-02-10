@@ -86,11 +86,12 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
 }
 
 #submit_button {
+  width:75%;
   margin-top: 1.25em;
+  border-radius: 5px;
   background-color: #e25f18;
-  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
   -webkit-appearance: none;
-  
 }
 
 #submit_button:hover {
