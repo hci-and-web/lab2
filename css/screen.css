@@ -66,8 +66,8 @@ footer p {
 input {
   display: block;
   box-sizing: border-box;
-  width: 95%;
   margin:auto;
+  width: 95%;
   margin-top: 1em;
   padding: .5em;
   background-color: #323750;
@@ -98,6 +98,15 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
   background-color: #f2722d;
 }
 
+label {
+  display: block;
+  box-sizing: border-box;
+  margin:auto;
+  width: 95%;
+  margin-top: 1.25em;
+}
+
+
 ::selection {
   background-color: #8994c2;
   color: #fff;
@@ -121,4 +130,16 @@ input[type=text]:focus,[type=date]:focus,[type=tel]:focus {
 ::-webkit-selection {
   background-color: #8994c2;
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: indigo;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: darkcyan;
+  }
 }
