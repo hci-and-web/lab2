@@ -37,7 +37,7 @@ header {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   margin: 1em;
 }
@@ -128,7 +128,7 @@ label {
 
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 1.2em;
+    font-size: .9em;
   }
 
   #form_section {
@@ -150,7 +150,7 @@ label {
 
 @media only screen and (min-width: 1025px) {
   body {
-    font-size: 1em;
+    font-size: .75em;
   }
 
   input {
@@ -160,5 +160,9 @@ label {
   label {
     width: 10em;
     float:left;
+  }
+
+  #submit_button {
+    width:8em;
   }
 }
