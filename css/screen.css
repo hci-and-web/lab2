@@ -11,6 +11,7 @@ body {
   background-color: #0b1334;
   color:#ffffff;
   font-family: 'Barlow', sans-serif;
+  font-size: ;
 }
 
 header {
@@ -24,13 +25,13 @@ header {
 }
 
 #company_title {
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: 'Saira', sans-serif;
   margin-bottom: .25em;
 }
 
 #tagline {
-  font-size: 1.5em;
+  font-size: 2em;
   color:#f7e9e2;
 }
 
@@ -59,8 +60,9 @@ footer p {
 /**********/
 
 #form_section {
-  width:360px;
+  width:100%;
   margin:auto;
+  font-size: 1.3em;
 }
 
 input {
@@ -69,7 +71,7 @@ input {
   margin:auto;
   width: 95%;
   margin-top: 1em;
-  padding: .5em;
+  padding: .6em;
   background-color: #323750;
   color: rgb(255, 255, 255);
   font-size: 1.15em;
@@ -136,10 +138,31 @@ label {
   body {
     background-color: indigo;
   }
+
+  #form_section {
+    width:75%;
+  }
+
+  input {
+    width:100%;
+  }
+
+  label {
+    width:100%;
+  }
+
+  #submit_button {
+    width:50%;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
   body {
     background-color: darkcyan;
+  }
+
+  label {
+    width: 10%;
+    float:left;
   }
 }
